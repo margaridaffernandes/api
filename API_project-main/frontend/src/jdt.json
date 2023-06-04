@@ -1,0 +1,2651 @@
+{
+    "Functions": [],
+    "InternalFunctions": [],
+    "Refset": [],
+    "TaskEditable": [
+      "All"
+    ],
+    "TaskInReport": [
+      "All"
+    ],
+    "TaskVisible": [
+      "All"
+    ],
+    "archetypeId": "openEHR-EHR-COMPOSITION.encounter.v1",
+    "category": {
+      "code": 433,
+      "text": "event"
+    },
+    "itemName": "AIEB - admissao",
+    "itemPath": "",
+    "items": [
+      [
+        {
+          "Functions": [],
+          "InternalFunctions": [],
+          "Refset": [],
+          "TaskEditable": [
+            "All"
+          ],
+          "TaskInReport": [
+            "All"
+          ],
+          "TaskVisible": [
+            "All"
+          ],
+          "archetype_id": "openEHR-EHR-ADMIN_ENTRY.episode_institution.v0",
+          "data_type": "Title",
+          "itemName": "Episódio",
+          "itemPath": "items.0.0",
+          "items": [
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "dataType": "DV_IDENTIFIER",
+              "itemName": "ID do Episódio",
+              "itemPath": "items.0.0.items.0",
+              "node": {
+                "code": "at0014",
+                "description": "An identifier for the episode of care.",
+                "text": "ID do Episódio"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]/[at0014]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "value": null
+            },
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "dataType": "DV_DATE_TIME",
+              "itemName": "Data de admissão",
+              "itemPath": "items.0.0.items.1",
+              "node": {
+                "code": "at0004",
+                "description": "The date and/or time of the formal or statistical admission to the institution.",
+                "text": "Data de admissão"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]/[at0004]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "value": {
+                "date": null,
+                "time": null
+              }
+            },
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "dataType": "DV_CODED_TEXT",
+              "itemName": "1º Motivo de internamento",
+              "itemPath": "items.0.0.items.2",
+              "itemsList": [
+                {
+                  "code": "local_terms::J45",
+                  "text": "Asma"
+                },
+                {
+                  "code": "local_terms::R40.2",
+                  "text": "Atraso de desenvolvimento psicomotor com regressão, em estudo"
+                },
+                {
+                  "code": "local_terms::J21.9",
+                  "text": "Bronquiolite aguda com hipoxemia"
+                },
+                {
+                  "code": "local_terms::J15.9",
+                  "text": "Bronquiolite aguda com sobreinfeção bacteriana"
+                },
+                {
+                  "code": "local_terms::J47",
+                  "text": "Bronquiolite"
+                },
+                {
+                  "code": "local_terms::F40.1",
+                  "text": "Caso social"
+                },
+                {
+                  "code": "local_terms::R51",
+                  "text": "Cefaleia"
+                },
+                {
+                  "code": "local_terms::Q21.14",
+                  "text": "Celulite pre-orbitária (pos-septal)"
+                },
+                {
+                  "code": "local_terms::Q21.15",
+                  "text": "Celulite pre-orbitária (pré-septal)"
+                },
+                {
+                  "code": "local_terms::H10",
+                  "text": "Conjuntivite"
+                },
+                {
+                  "code": "local_terms::R56.01",
+                  "text": "Convulsão febril complexa"
+                },
+                {
+                  "code": "local_terms::R56.00",
+                  "text": "Convulsão febril simples"
+                },
+                {
+                  "code": "local_terms::R56.0",
+                  "text": "Convulsão"
+                },
+                {
+                  "code": "local_terms::J98.01",
+                  "text": "Crise de broncoespasmo"
+                },
+                {
+                  "code": "local_terms::0G59",
+                  "text": "Derrame para-pneumónico"
+                },
+                {
+                  "code": "local_terms::E86.0",
+                  "text": "Desidratação"
+                },
+                {
+                  "code": "local_terms::E10.69",
+                  "text": "Diabetes mellitus tipo 1 mal controlada"
+                },
+                {
+                  "code": "local_terms::E10.9",
+                  "text": "Diabetes mellitus tipo 1"
+                },
+                {
+                  "code": "local_terms::P78.3",
+                  "text": "Diarreia"
+                },
+                {
+                  "code": "local_terms::R19.7",
+                  "text": "Diarreia e vómitos"
+                },
+                {
+                  "code": "local_terms::P92.5",
+                  "text": "Dificuldade alimentar neonatal"
+                },
+                {
+                  "code": "local_terms::P22.0",
+                  "text": "Dificuldade respiratória"
+                },
+                {
+                  "code": "local_terms::J96.00",
+                  "text": "Dificuldade respiratória com hipoxia"
+                },
+                {
+                  "code": "local_terms::T85.02",
+                  "text": "Disfunção do shunt ventrículo-atrial"
+                },
+                {
+                  "code": "local_terms::K50.90",
+                  "text": "Doença de Crohn"
+                },
+                {
+                  "code": "local_terms::R10.9",
+                  "text": "Dor abdominal"
+                },
+                {
+                  "code": "local_terms::R10.10",
+                  "text": "Dor abdominal e vómitos"
+                },
+                {
+                  "code": "local_terms::L20.83",
+                  "text": "Eczema atópico"
+                },
+                {
+                  "code": "local_terms::G40.31",
+                  "text": "Epilepsia"
+                },
+                {
+                  "code": "local_terms::R23.0 neonatal",
+                  "text": "Episódio de cianose neonatal"
+                },
+                {
+                  "code": "local_terms::R23.0",
+                  "text": "Episódio de cianose"
+                },
+                {
+                  "code": "local_terms::P83.1",
+                  "text": "Eritrodermia"
+                },
+                {
+                  "code": "local_terms::Q85.1",
+                  "text": "Esclerose tuberosa"
+                },
+                {
+                  "code": "local_terms::D58.0",
+                  "text": "Esferocitose hereditária"
+                },
+                {
+                  "code": "local_terms::G40.821",
+                  "text": "Espasmos infantis"
+                },
+                {
+                  "code": "local_terms::B08.20",
+                  "text": "Exantema"
+                },
+                {
+                  "code": "local_terms::R50.9",
+                  "text": "Febre"
+                },
+                {
+                  "code": "local_terms::R50",
+                  "text": "Febre sem foco"
+                },
+                {
+                  "code": "local_terms::P58.4",
+                  "text": "Filho de mãe toxicodependente"
+                },
+                {
+                  "code": "local_terms::K52",
+                  "text": "Gastroenterite"
+                },
+                {
+                  "code": "local_terms::B00.2",
+                  "text": "Gengivoestomatite"
+                },
+                {
+                  "code": "local_terms::O09.90",
+                  "text": "Gravidez não vigiada"
+                },
+                {
+                  "code": "local_terms::R31",
+                  "text": "Hematúria"
+                },
+                {
+                  "code": "local_terms::G81",
+                  "text": "Hemiplegia"
+                },
+                {
+                  "code": "local_terms::G91",
+                  "text": "Hidrocefalia"
+                },
+                {
+                  "code": "local_terms::P59.0",
+                  "text": "Hiperbilirrubinemia direta"
+                },
+                {
+                  "code": "local_terms::P59.9",
+                  "text": "Hiperbilirrubinemia indireta"
+                },
+                {
+                  "code": "local_terms::R09.02",
+                  "text": "Hipoxemia"
+                },
+                {
+                  "code": "local_terms::P59.8",
+                  "text": "Icterícia neonatal"
+                },
+                {
+                  "code": "local_terms::L01",
+                  "text": "Impetigo"
+                },
+                {
+                  "code": "local_terms::D84.9",
+                  "text": "Imunodepressão"
+                },
+                {
+                  "code": "local_terms::J06.9",
+                  "text": "Infeção aguda das vias aéreas superiores"
+                },
+                {
+                  "code": "local_terms::J06",
+                  "text": "Infeção respiratória"
+                },
+                {
+                  "code": "local_terms::P91.3",
+                  "text": "Irritabilidade"
+                },
+                {
+                  "code": "local_terms::J04.2",
+                  "text": "Laringotraqueobronquite"
+                },
+                {
+                  "code": "local_terms::D72.818",
+                  "text": "Leucopenia"
+                },
+                {
+                  "code": "local_terms::B00.1",
+                  "text": "Litíase vesicular"
+                },
+                {
+                  "code": "local_terms::A87.9",
+                  "text": "Meningite de etiologia vírica"
+                },
+                {
+                  "code": "local_terms::G00",
+                  "text": "Meningite de etiologia bacteriana"
+                },
+                {
+                  "code": "local_terms::D70",
+                  "text": "Neutropenia"
+                },
+                {
+                  "code": "local_terms::Otomastoidite",
+                  "text": "Otomastoidite"
+                },
+                {
+                  "code": "local_terms::Pancitopenia",
+                  "text": "Pancitopenia"
+                },
+                {
+                  "code": "local_terms::B26",
+                  "text": "Parotidite"
+                },
+                {
+                  "code": "local_terms::R23.3",
+                  "text": "Petéquias"
+                },
+                {
+                  "code": "local_terms::P25.2",
+                  "text": "Pneumomediastino"
+                },
+                {
+                  "code": "local_terms::P23.9",
+                  "text": "Pneumonia congénita"
+                },
+                {
+                  "code": "local_terms::J18.9",
+                  "text": "Pneumonia"
+                },
+                {
+                  "code": "local_terms::P07.31",
+                  "text": "Prematuridade"
+                },
+                {
+                  "code": "local_terms::D69.0",
+                  "text": "Púrpura trombocitopenia idiopática aguda"
+                },
+                {
+                  "code": "local_terms::D69.42",
+                  "text": "Púrpura trombocitopenia idiopática crónica"
+                },
+                {
+                  "code": "local_terms::R63.3",
+                  "text": "Recusa Alimentar"
+                },
+                {
+                  "code": "local_terms::Q62.11",
+                  "text": "S.junção ureteropiélico"
+                },
+                {
+                  "code": "local_terms::P36.9",
+                  "text": "Sépsis neonatal"
+                },
+                {
+                  "code": "local_terms::P24.9",
+                  "text": "Síndrome de privação neonatal"
+                },
+                {
+                  "code": "local_terms::F84.2",
+                  "text": "Síndrome de Rett"
+                },
+                {
+                  "code": "local_terms::R78.81",
+                  "text": "Suspeita de bacteriémia oculta"
+                },
+                {
+                  "code": "local_terms::T85.02",
+                  "text": "Disfunção do shunt ventrículo-atrial"
+                },
+                {
+                  "code": "local_terms::L51.9",
+                  "text": "Suspeita de eritema multiforme"
+                },
+                {
+                  "code": "local_terms::N10",
+                  "text": "Suspeita de pielonefrite aguda"
+                },
+                {
+                  "code": "local_terms::A50.9",
+                  "text": "Suspeita de sífilis congénita"
+                },
+                {
+                  "code": "local_terms::R05",
+                  "text": "Tosse"
+                },
+                {
+                  "code": "local_terms::A37",
+                  "text": "Tosse cianosante"
+                },
+                {
+                  "code": "local_terms::A37.91",
+                  "text": "Tosse emetizante"
+                },
+                {
+                  "code": "local_terms::Q90.0",
+                  "text": "Trissomia 21"
+                },
+                {
+                  "code": "local_terms::D69.6",
+                  "text": "Trombocitopenia"
+                },
+                {
+                  "code": "local_terms::B01",
+                  "text": "Varicela"
+                },
+                {
+                  "code": "local_terms::Z65.4",
+                  "text": "Vítima de maus tratos"
+                },
+                {
+                  "code": "local_terms::G43.A0",
+                  "text": "Vómitos incoercíveis"
+                },
+                {
+                  "code": "local_terms::B02",
+                  "text": "Zona"
+                },
+                {
+                  "code": "local_terms::Outro",
+                  "text": "Outro"
+                },
+                {
+                  "code":"local_terms:: - escolha -",
+                  "text":"- escolha -"
+                }
+
+              ],
+              "node": {
+                "code": "at0008",
+                "description": "The reason why the individual was admitted for an episode of care.",
+                "text": "1º Motivo de internamento"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]/[at0008]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "terminology": "local_terms",
+              "terminology_id": "local_terms",
+              "value": null
+            },
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "dataType": "DV_CODED_TEXT",
+              "itemName": "2º Motivo de internamento",
+              "itemPath": "items.0.0.items.3",
+              "itemsList": [
+                {
+                  "code": "local_terms::J45",
+                  "text": "Asma"
+                },
+                {
+                  "code": "local_terms::R40.2",
+                  "text": "Atraso de desenvolvimento psicomotor com regressão, em estudo"
+                },
+                {
+                  "code": "local_terms::J21.9",
+                  "text": "Bronquiolite aguda com hipoxemia"
+                },
+                {
+                  "code": "local_terms::J15.9",
+                  "text": "Bronquiolite aguda com sobreinfeção bacteriana"
+                },
+                {
+                  "code": "local_terms::J47",
+                  "text": "Bronquiolite"
+                },
+                {
+                  "code": "local_terms::F40.1",
+                  "text": "Caso social"
+                },
+                {
+                  "code": "local_terms::R51",
+                  "text": "Cefaleia"
+                },
+                {
+                  "code": "local_terms::Q21.14",
+                  "text": "Celulite pre-orbitária (pos-septal)"
+                },
+                {
+                  "code": "local_terms::Q21.15",
+                  "text": "Celulite pre-orbitária (pré-septal)"
+                },
+                {
+                  "code": "local_terms::H10",
+                  "text": "Conjuntivite"
+                },
+                {
+                  "code": "local_terms::R56.01",
+                  "text": "Convulsão febril complexa"
+                },
+                {
+                  "code": "local_terms::R56.00",
+                  "text": "Convulsão febril simples"
+                },
+                {
+                  "code": "local_terms::R56.0",
+                  "text": "Convulsão"
+                },
+                {
+                  "code": "local_terms::J98.01",
+                  "text": "Crise de broncoespasmo"
+                },
+                {
+                  "code": "local_terms::0G59",
+                  "text": "Derrame para-pneumónico"
+                },
+                {
+                  "code": "local_terms::E86.0",
+                  "text": "Desidratação"
+                },
+                {
+                  "code": "local_terms::E10.69",
+                  "text": "Diabetes mellitus tipo 1 mal controlada"
+                },
+                {
+                  "code": "local_terms::E10.9",
+                  "text": "Diabetes mellitus tipo 1"
+                },
+                {
+                  "code": "local_terms::P78.3",
+                  "text": "Diarreia"
+                },
+                {
+                  "code": "local_terms::R19.7",
+                  "text": "Diarreia e vómitos"
+                },
+                {
+                  "code": "local_terms::P92.5",
+                  "text": "Dificuldade alimentar neonatal"
+                },
+                {
+                  "code": "local_terms::P22.0",
+                  "text": "Dificuldade respiratória"
+                },
+                {
+                  "code": "local_terms::J96.00",
+                  "text": "Dificuldade respiratória com hipoxia"
+                },
+                {
+                  "code": "local_terms::T85.02",
+                  "text": "Disfunção do shunt ventrículo-atrial"
+                },
+                {
+                  "code": "local_terms::K50.90",
+                  "text": "Doença de Crohn"
+                },
+                {
+                  "code": "local_terms::R10.9",
+                  "text": "Dor abdominal"
+                },
+                {
+                  "code": "local_terms::R10.10",
+                  "text": "Dor abdominal e vómitos"
+                },
+                {
+                  "code": "local_terms::L20.83",
+                  "text": "Eczema atópico"
+                },
+                {
+                  "code": "local_terms::G40.31",
+                  "text": "Epilepsia"
+                },
+                {
+                  "code": "local_terms::R23.0 neonatal",
+                  "text": "Episódio de cianose neonatal"
+                },
+                {
+                  "code": "local_terms::R23.0",
+                  "text": "Episódio de cianose"
+                },
+                {
+                  "code": "local_terms::P83.1",
+                  "text": "Eritrodermia"
+                },
+                {
+                  "code": "local_terms::Q85.1",
+                  "text": "Esclerose tuberosa"
+                },
+                {
+                  "code": "local_terms::D58.0",
+                  "text": "Esferocitose hereditária"
+                },
+                {
+                  "code": "local_terms::G40.821",
+                  "text": "Espasmos infantis"
+                },
+                {
+                  "code": "local_terms::B08.20",
+                  "text": "Exantema"
+                },
+                {
+                  "code": "local_terms::R50.9",
+                  "text": "Febre"
+                },
+                {
+                  "code": "local_terms::R50",
+                  "text": "Febre sem foco"
+                },
+                {
+                  "code": "local_terms::P58.4",
+                  "text": "Filho de mãe toxicodependente"
+                },
+                {
+                  "code": "local_terms::K52",
+                  "text": "Gastroenterite"
+                },
+                {
+                  "code": "local_terms::B00.2",
+                  "text": "Gengivoestomatite"
+                },
+                {
+                  "code": "local_terms::O09.90",
+                  "text": "Gravidez não vigiada"
+                },
+                {
+                  "code": "local_terms::R31",
+                  "text": "Hematúria"
+                },
+                {
+                  "code": "local_terms::G81",
+                  "text": "Hemiplegia"
+                },
+                {
+                  "code": "local_terms::G91",
+                  "text": "Hidrocefalia"
+                },
+                {
+                  "code": "local_terms::P59.0",
+                  "text": "Hiperbilirrubinemia direta"
+                },
+                {
+                  "code": "local_terms::P59.9",
+                  "text": "Hiperbilirrubinemia indireta"
+                },
+                {
+                  "code": "local_terms::R09.02",
+                  "text": "Hipoxemia"
+                },
+                {
+                  "code": "local_terms::P59.8",
+                  "text": "Icterícia neonatal"
+                },
+                {
+                  "code": "local_terms::L01",
+                  "text": "Impetigo"
+                },
+                {
+                  "code": "local_terms::D84.9",
+                  "text": "Imunodepressão"
+                },
+                {
+                  "code": "local_terms::J06.9",
+                  "text": "Infeção aguda das vias aéreas superiores"
+                },
+                {
+                  "code": "local_terms::J06",
+                  "text": "Infeção respiratória"
+                },
+                {
+                  "code": "local_terms::P91.3",
+                  "text": "Irritabilidade"
+                },
+                {
+                  "code": "local_terms::J04.2",
+                  "text": "Laringotraqueobronquite"
+                },
+                {
+                  "code": "local_terms::D72.818",
+                  "text": "Leucopenia"
+                },
+                {
+                  "code": "local_terms::B00.1",
+                  "text": "Litíase vesicular"
+                },
+                {
+                  "code": "local_terms::A87.9",
+                  "text": "Meningite de etiologia vírica"
+                },
+                {
+                  "code": "local_terms::G00",
+                  "text": "Meningite de etiologia bacteriana"
+                },
+                {
+                  "code": "local_terms::D70",
+                  "text": "Neutropenia"
+                },
+                {
+                  "code": "local_terms::Otomastoidite",
+                  "text": "Otomastoidite"
+                },
+                {
+                  "code": "local_terms::Pancitopenia",
+                  "text": "Pancitopenia"
+                },
+                {
+                  "code": "local_terms::B26",
+                  "text": "Parotidite"
+                },
+                {
+                  "code": "local_terms::R23.3",
+                  "text": "Petéquias"
+                },
+                {
+                  "code": "local_terms::P25.2",
+                  "text": "Pneumomediastino"
+                },
+                {
+                  "code": "local_terms::P23.9",
+                  "text": "Pneumonia congénita"
+                },
+                {
+                  "code": "local_terms::J18.9",
+                  "text": "Pneumonia"
+                },
+                {
+                  "code": "local_terms::P07.31",
+                  "text": "Prematuridade"
+                },
+                {
+                  "code": "local_terms::D69.0",
+                  "text": "Púrpura trombocitopenia idiopática aguda"
+                },
+                {
+                  "code": "local_terms::D69.42",
+                  "text": "Púrpura trombocitopenia idiopática crónica"
+                },
+                {
+                  "code": "local_terms::R63.3",
+                  "text": "Recusa Alimentar"
+                },
+                {
+                  "code": "local_terms::Q62.11",
+                  "text": "S.junção ureteropiélico"
+                },
+                {
+                  "code": "local_terms::P36.9",
+                  "text": "Sépsis neonatal"
+                },
+                {
+                  "code": "local_terms::P24.9",
+                  "text": "Síndrome de privação neonatal"
+                },
+                {
+                  "code": "local_terms::F84.2",
+                  "text": "Síndrome de Rett"
+                },
+                {
+                  "code": "local_terms::R78.81",
+                  "text": "Suspeita de bacteriémia oculta"
+                },
+                {
+                  "code": "local_terms::T85.02",
+                  "text": "Disfunção do shunt ventrículo-atrial"
+                },
+                {
+                  "code": "local_terms::L51.9",
+                  "text": "Suspeita de eritema multiforme"
+                },
+                {
+                  "code": "local_terms::N10",
+                  "text": "Suspeita de pielonefrite aguda"
+                },
+                {
+                  "code": "local_terms::A50.9",
+                  "text": "Suspeita de sífilis congénita"
+                },
+                {
+                  "code": "local_terms::R05",
+                  "text": "Tosse"
+                },
+                {
+                  "code": "local_terms::A37",
+                  "text": "Tosse cianosante"
+                },
+                {
+                  "code": "local_terms::A37.91",
+                  "text": "Tosse emetizante"
+                },
+                {
+                  "code": "local_terms::Q90.0",
+                  "text": "Trissomia 21"
+                },
+                {
+                  "code": "local_terms::D69.6",
+                  "text": "Trombocitopenia"
+                },
+                {
+                  "code": "local_terms::B01",
+                  "text": "Varicela"
+                },
+                {
+                  "code": "local_terms::Z65.4",
+                  "text": "Vítima de maus tratos"
+                },
+                {
+                  "code": "local_terms::G43.A0",
+                  "text": "Vómitos incoercíveis"
+                },
+                {
+                  "code": "local_terms::B02",
+                  "text": "Zona"
+                },
+                {
+                  "code": "local_terms::Outro",
+                  "text": "Outro"
+                },
+                {
+                  "code":"local_terms:: - escolha -",
+                  "text":"- escolha -"
+                }
+              ],
+              "node": {
+                "code": "at0008",
+                "description": "The reason why the individual was admitted for an episode of care.",
+                "text": "2º Motivo de internamento"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]/[at0008]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "terminology": "local_terms",
+              "terminology_id": "local_terms",
+              "value": null
+            },
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "dataType": "DV_CODED_TEXT",
+              "itemName": "3º Motivo de internamento",
+              "itemPath": "items.0.0.items.4",
+              "itemsList": [
+                {
+                  "code": "local_terms::J45",
+                  "text": "Asma"
+                },
+                {
+                  "code": "local_terms::R40.2",
+                  "text": "Atraso de desenvolvimento psicomotor com regressão, em estudo"
+                },
+                {
+                  "code": "local_terms::J21.9",
+                  "text": "Bronquiolite aguda com hipoxemia"
+                },
+                {
+                  "code": "local_terms::J15.9",
+                  "text": "Bronquiolite aguda com sobreinfeção bacteriana"
+                },
+                {
+                  "code": "local_terms::J47",
+                  "text": "Bronquiolite"
+                },
+                {
+                  "code": "local_terms::F40.1",
+                  "text": "Caso social"
+                },
+                {
+                  "code": "local_terms::R51",
+                  "text": "Cefaleia"
+                },
+                {
+                  "code": "local_terms::Q21.14",
+                  "text": "Celulite pre-orbitária (pos-septal)"
+                },
+                {
+                  "code": "local_terms::Q21.15",
+                  "text": "Celulite pre-orbitária (pré-septal)"
+                },
+                {
+                  "code": "local_terms::H10",
+                  "text": "Conjuntivite"
+                },
+                {
+                  "code": "local_terms::R56.01",
+                  "text": "Convulsão febril complexa"
+                },
+                {
+                  "code": "local_terms::R56.00",
+                  "text": "Convulsão febril simples"
+                },
+                {
+                  "code": "local_terms::R56.0",
+                  "text": "Convulsão"
+                },
+                {
+                  "code": "local_terms::J98.01",
+                  "text": "Crise de broncoespasmo"
+                },
+                {
+                  "code": "local_terms::0G59",
+                  "text": "Derrame para-pneumónico"
+                },
+                {
+                  "code": "local_terms::E86.0",
+                  "text": "Desidratação"
+                },
+                {
+                  "code": "local_terms::E10.69",
+                  "text": "Diabetes mellitus tipo 1 mal controlada"
+                },
+                {
+                  "code": "local_terms::E10.9",
+                  "text": "Diabetes mellitus tipo 1"
+                },
+                {
+                  "code": "local_terms::P78.3",
+                  "text": "Diarreia"
+                },
+                {
+                  "code": "local_terms::R19.7",
+                  "text": "Diarreia e vómitos"
+                },
+                {
+                  "code": "local_terms::P92.5",
+                  "text": "Dificuldade alimentar neonatal"
+                },
+                {
+                  "code": "local_terms::P22.0",
+                  "text": "Dificuldade respiratória"
+                },
+                {
+                  "code": "local_terms::J96.00",
+                  "text": "Dificuldade respiratória com hipoxia"
+                },
+                {
+                  "code": "local_terms::T85.02",
+                  "text": "Disfunção do shunt ventrículo-atrial"
+                },
+                {
+                  "code": "local_terms::K50.90",
+                  "text": "Doença de Crohn"
+                },
+                {
+                  "code": "local_terms::R10.9",
+                  "text": "Dor abdominal"
+                },
+                {
+                  "code": "local_terms::R10.10",
+                  "text": "Dor abdominal e vómitos"
+                },
+                {
+                  "code": "local_terms::L20.83",
+                  "text": "Eczema atópico"
+                },
+                {
+                  "code": "local_terms::G40.31",
+                  "text": "Epilepsia"
+                },
+                {
+                  "code": "local_terms::R23.0 neonatal",
+                  "text": "Episódio de cianose neonatal"
+                },
+                {
+                  "code": "local_terms::R23.0",
+                  "text": "Episódio de cianose"
+                },
+                {
+                  "code": "local_terms::P83.1",
+                  "text": "Eritrodermia"
+                },
+                {
+                  "code": "local_terms::Q85.1",
+                  "text": "Esclerose tuberosa"
+                },
+                {
+                  "code": "local_terms::D58.0",
+                  "text": "Esferocitose hereditária"
+                },
+                {
+                  "code": "local_terms::G40.821",
+                  "text": "Espasmos infantis"
+                },
+                {
+                  "code": "local_terms::B08.20",
+                  "text": "Exantema"
+                },
+                {
+                  "code": "local_terms::R50.9",
+                  "text": "Febre"
+                },
+                {
+                  "code": "local_terms::R50",
+                  "text": "Febre sem foco"
+                },
+                {
+                  "code": "local_terms::P58.4",
+                  "text": "Filho de mãe toxicodependente"
+                },
+                {
+                  "code": "local_terms::K52",
+                  "text": "Gastroenterite"
+                },
+                {
+                  "code": "local_terms::B00.2",
+                  "text": "Gengivoestomatite"
+                },
+                {
+                  "code": "local_terms::O09.90",
+                  "text": "Gravidez não vigiada"
+                },
+                {
+                  "code": "local_terms::R31",
+                  "text": "Hematúria"
+                },
+                {
+                  "code": "local_terms::G81",
+                  "text": "Hemiplegia"
+                },
+                {
+                  "code": "local_terms::G91",
+                  "text": "Hidrocefalia"
+                },
+                {
+                  "code": "local_terms::P59.0",
+                  "text": "Hiperbilirrubinemia direta"
+                },
+                {
+                  "code": "local_terms::P59.9",
+                  "text": "Hiperbilirrubinemia indireta"
+                },
+                {
+                  "code": "local_terms::R09.02",
+                  "text": "Hipoxemia"
+                },
+                {
+                  "code": "local_terms::P59.8",
+                  "text": "Icterícia neonatal"
+                },
+                {
+                  "code": "local_terms::L01",
+                  "text": "Impetigo"
+                },
+                {
+                  "code": "local_terms::D84.9",
+                  "text": "Imunodepressão"
+                },
+                {
+                  "code": "local_terms::J06.9",
+                  "text": "Infeção aguda das vias aéreas superiores"
+                },
+                {
+                  "code": "local_terms::J06",
+                  "text": "Infeção respiratória"
+                },
+                {
+                  "code": "local_terms::P91.3",
+                  "text": "Irritabilidade"
+                },
+                {
+                  "code": "local_terms::J04.2",
+                  "text": "Laringotraqueobronquite"
+                },
+                {
+                  "code": "local_terms::D72.818",
+                  "text": "Leucopenia"
+                },
+                {
+                  "code": "local_terms::B00.1",
+                  "text": "Litíase vesicular"
+                },
+                {
+                  "code": "local_terms::A87.9",
+                  "text": "Meningite de etiologia vírica"
+                },
+                {
+                  "code": "local_terms::G00",
+                  "text": "Meningite de etiologia bacteriana"
+                },
+                {
+                  "code": "local_terms::D70",
+                  "text": "Neutropenia"
+                },
+                {
+                  "code": "local_terms::Otomastoidite",
+                  "text": "Otomastoidite"
+                },
+                {
+                  "code": "local_terms::Pancitopenia",
+                  "text": "Pancitopenia"
+                },
+                {
+                  "code": "local_terms::B26",
+                  "text": "Parotidite"
+                },
+                {
+                  "code": "local_terms::R23.3",
+                  "text": "Petéquias"
+                },
+                {
+                  "code": "local_terms::P25.2",
+                  "text": "Pneumomediastino"
+                },
+                {
+                  "code": "local_terms::P23.9",
+                  "text": "Pneumonia congénita"
+                },
+                {
+                  "code": "local_terms::J18.9",
+                  "text": "Pneumonia"
+                },
+                {
+                  "code": "local_terms::P07.31",
+                  "text": "Prematuridade"
+                },
+                {
+                  "code": "local_terms::D69.0",
+                  "text": "Púrpura trombocitopenia idiopática aguda"
+                },
+                {
+                  "code": "local_terms::D69.42",
+                  "text": "Púrpura trombocitopenia idiopática crónica"
+                },
+                {
+                  "code": "local_terms::R63.3",
+                  "text": "Recusa Alimentar"
+                },
+                {
+                  "code": "local_terms::Q62.11",
+                  "text": "S.junção ureteropiélico"
+                },
+                {
+                  "code": "local_terms::P36.9",
+                  "text": "Sépsis neonatal"
+                },
+                {
+                  "code": "local_terms::P24.9",
+                  "text": "Síndrome de privação neonatal"
+                },
+                {
+                  "code": "local_terms::F84.2",
+                  "text": "Síndrome de Rett"
+                },
+                {
+                  "code": "local_terms::R78.81",
+                  "text": "Suspeita de bacteriémia oculta"
+                },
+                {
+                  "code": "local_terms::T85.02",
+                  "text": "Disfunção do shunt ventrículo-atrial"
+                },
+                {
+                  "code": "local_terms::L51.9",
+                  "text": "Suspeita de eritema multiforme"
+                },
+                {
+                  "code": "local_terms::N10",
+                  "text": "Suspeita de pielonefrite aguda"
+                },
+                {
+                  "code": "local_terms::A50.9",
+                  "text": "Suspeita de sífilis congénita"
+                },
+                {
+                  "code": "local_terms::R05",
+                  "text": "Tosse"
+                },
+                {
+                  "code": "local_terms::A37",
+                  "text": "Tosse cianosante"
+                },
+                {
+                  "code": "local_terms::A37.91",
+                  "text": "Tosse emetizante"
+                },
+                {
+                  "code": "local_terms::Q90.0",
+                  "text": "Trissomia 21"
+                },
+                {
+                  "code": "local_terms::D69.6",
+                  "text": "Trombocitopenia"
+                },
+                {
+                  "code": "local_terms::B01",
+                  "text": "Varicela"
+                },
+                {
+                  "code": "local_terms::Z65.4",
+                  "text": "Vítima de maus tratos"
+                },
+                {
+                  "code": "local_terms::G43.A0",
+                  "text": "Vómitos incoercíveis"
+                },
+                {
+                  "code": "local_terms::B02",
+                  "text": "Zona"
+                },
+                {
+                  "code": "local_terms::Outro",
+                  "text": "Outro"
+                },
+                {
+                  "code":"local_terms:: - escolha -",
+                  "text":"- escolha -"
+                }
+              ],
+              "node": {
+                "code": "at0008",
+                "description": "The reason why the individual was admitted for an episode of care.",
+                "text": "3º Motivo de internamento"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]/[at0008]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "terminology": "local_terms",
+              "terminology_id": "local_terms",
+              "value": null
+            },
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "dataType": "DV_CODED_TEXT",
+              "itemName": "Internamento",
+              "itemPath": "items.0.0.items.5",
+              "itemsList": [
+                {
+                  "code": "local_terms::U",
+                  "text": "Urgente"
+                },
+                {
+                  "code": "local_terms::P",
+                  "text": "Programado"
+                },
+                {
+                  "code": "local_terms::O",
+                  "text": "- escolha -"
+                }
+              ],
+              "node": {
+                "code": "at0009",
+                "description": "The type of admission.",
+                "text": "Internamento"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]/[at0009]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "terminology": "local_terms",
+              "terminology_id": "local_terms",
+              "value": null
+            },
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "dataType": "DV_CODED_TEXT",
+              "itemName": "Reinternamento",
+              "itemPath": "items.0.0.items.6",
+              "itemsList": [
+                {
+                  "code": "local_terms::Não",
+                  "text": "Não"
+                },
+                {
+                  "code": "local_terms::No episódio atual",
+                  "text": "No episódio atual"
+                },
+                {
+                  "code": "local_terms::Noutro serviço no episodio atual",
+                  "text": "Noutro serviço no episodio atual"
+                },
+                {
+                  "code": "local_terms::Noutro serviço nos últimos 12 meses",
+                  "text": "Noutro serviço nos últimos 12 meses"
+                }
+              ],
+              "node": {
+                "code": "at0007",
+                "description": "The type of residence where the individual resided prior to admission.",
+                "text": "Reinternamento"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]/[at0007]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "terminology": "local_terms",
+              "terminology_id": "local_terms",
+              "value": null
+            },
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "archetype_id": "openEHR-EHR-CLUSTER.organisation.v1",
+              "data_type": "Title",
+              "itemName": "Proveniência",
+              "itemPath": "items.0.0.items.7",
+              "items": [
+                {
+                  "Functions": [],
+                  "InternalFunctions": [],
+                  "Refset": [],
+                  "TaskEditable": [
+                    "All"
+                  ],
+                  "TaskInReport": [
+                    "All"
+                  ],
+                  "TaskVisible": [
+                    "All"
+                  ],
+                  "dataType": "DV_CODED_TEXT",
+                  "itemName": "Nome",
+                  "itemPath": "items.0.0.items.7.items.0",
+                  "itemsList": [
+                    {
+                      "code": "NADMSCI1",
+                      "text": "SU PP"
+                    },
+                    {
+                      "code": "NADMSCI6",
+                      "text": "SCI"
+                    },
+                    {
+                      "code": "NADMSCI2",
+                      "text": "APR"
+                    },
+                    {
+                      "code": "NADMSCI3",
+                      "text": "Consulta externa"
+                    },
+                    {
+                      "code": "NADMSCI4",
+                      "text": "Centro de Saúde"
+                    },
+                    {
+                      "code": "NADMSCI9",
+                      "text": "Outro Hospital"
+                    },
+                    {
+                      "code": "NADMSCI10",
+                      "text": "Outra situação"
+                    }
+                  ],
+                  "node": {
+                    "code": "at0001",
+                    "description": "The unstructured name or label for the organisation.",
+                    "text": "Nome"
+                  },
+                  "occurrences": {
+                    "lowerOccurrences": 0,
+                    "upperOccurrences": 1
+                  },
+                  "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]/[openEHR-EHR-CLUSTER.organisation.v1]/[at0001]",
+                  "ruleMandatory": [],
+                  "ruleVisibility": [],
+                  "terminology": "local_terms",
+                  "terminology_id": "local_terms",
+                  "value": null
+                },
+                {
+                  "Functions": [],
+                  "InternalFunctions": [],
+                  "Refset": [],
+                  "TaskEditable": [
+                    "All"
+                  ],
+                  "TaskInReport": [
+                    "All"
+                  ],
+                  "TaskVisible": [
+                    "All"
+                  ],
+                  "dataType": "DV_TEXT",
+                  "itemName": "Comentários",
+                  "itemPath": "items.0.0.items.7.items.1",
+                  "node": {
+                    "code": "at0019",
+                    "description": "Additional narrative about the organisation not captured in other fields.",
+                    "text": "Comentários"
+                  },
+                  "occurrences": {
+                    "lowerOccurrences": 0,
+                    "upperOccurrences": 1
+                  },
+                  "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]/[openEHR-EHR-CLUSTER.organisation.v1]/[at0019]",
+                  "ruleMandatory": [],
+                  "ruleVisibility": [],
+                  "value": null
+                }
+              ],
+              "node": {
+                "code": "at0000",
+                "description": "An entity comprising one or more people and having a particular purpose.",
+                "text": "Proveniência"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]/[openEHR-EHR-CLUSTER.organisation.v1]",
+              "ruleMandatory": [],
+              "ruleVisibility": []
+            },
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "archetype_id": "openEHR-EHR-CLUSTER.infection.v0",
+              "data_type": "Title",
+              "itemName": "Infeção",
+              "itemPath": "items.0.0.items.8",
+              "items": [
+                {
+                  "Functions": [],
+                  "InternalFunctions": [],
+                  "Refset": [],
+                  "TaskEditable": [
+                    "All"
+                  ],
+                  "TaskInReport": [
+                    "All"
+                  ],
+                  "TaskVisible": [
+                    "All"
+                  ],
+                  "dataType": "DV_TEXT",
+                  "itemName": "Comentários",
+                  "itemPath": "items.0.0.items.8.items.0",
+                  "node": {
+                    "code": "at0001",
+                    "text": "Comentários"
+                  },
+                  "occurrences": {
+                    "lowerOccurrences": 0,
+                    "upperOccurrences": 1
+                  },
+                  "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]/[openEHR-EHR-CLUSTER.infection.v0]/[at0001]",
+                  "ruleMandatory": [],
+                  "ruleVisibility": [],
+                  "value": null
+                },
+                {
+                  "Functions": [],
+                  "InternalFunctions": [],
+                  "Refset": [],
+                  "TaskEditable": [
+                    "All"
+                  ],
+                  "TaskInReport": [
+                    "All"
+                  ],
+                  "TaskVisible": [
+                    "All"
+                  ],
+                  "dataType": "DV_CODED_TEXT",
+                  "itemName": "Infeção aguda à admissão",
+                  "itemPath": "items.0.0.items.8.items.1",
+                  "itemsList": [
+                    {
+                      "code": "local_terms::Sim, corrente sanguínea",
+                      "text": "Sim, corrente sanguínea"
+                    },
+                    {
+                      "code": "local_terms::Sim, local cirúrgico",
+                      "text": "Sim, local cirúrgico"
+                    },
+                    {
+                      "code": "local_terms::Sim, respiratória",
+                      "text": "Sim, respiratória"
+                    },
+                    {
+                      "code": "local_terms::Sim, urinária",
+                      "text": "Sim, urinária"
+                    },
+                    {
+                      "code": "local_terms::Sim, outras",
+                      "text": "Sim, outras"
+                    },
+                    {
+                      "code": "local_terms::Não",
+                      "text": "Não"
+                    }
+                  ],
+                  "node": {
+                    "code": "at0002",
+                    "text": "Infeção aguda à admissão"
+                  },
+                  "occurrences": {
+                    "lowerOccurrences": 0,
+                    "upperOccurrences": 1
+                  },
+                  "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]/[openEHR-EHR-CLUSTER.infection.v0]/[at0002]",
+                  "ruleMandatory": [],
+                  "ruleVisibility": [],
+                  "terminology": "local_terms",
+                  "terminology_id": "local_terms",
+                  "value": null
+                },
+                {
+                  "Functions": [],
+                  "InternalFunctions": [],
+                  "Refset": [],
+                  "TaskEditable": [
+                    "All"
+                  ],
+                  "TaskInReport": [
+                    "All"
+                  ],
+                  "TaskVisible": [
+                    "All"
+                  ],
+                  "dataType": "DV_TEXT",
+                  "itemName": "Local da infeção",
+                  "itemPath": "items.0.0.items.8.items.2",
+                  "node": {
+                    "code": "at0003",
+                    "text": "Local da infeção"
+                  },
+                  "occurrences": {
+                    "lowerOccurrences": 0,
+                    "upperOccurrences": 1
+                  },
+                  "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]/[openEHR-EHR-CLUSTER.infection.v0]/[at0003]",
+                  "ruleMandatory": [],
+                  "ruleVisibility": [],
+                  "value": null
+                }
+              ],
+              "node": {
+                "code": "at0000",
+                "description": "infection",
+                "text": "Infeção"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]/[openEHR-EHR-CLUSTER.infection.v0]",
+              "ruleMandatory": [],
+              "ruleVisibility": []
+            },
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "dataType": "DV_TEXT",
+              "itemName": "Comment",
+              "itemPath": "items.0.0.items.9",
+              "node": {
+                "code": "at0010",
+                "description": "Additional narrative about the episode, not captured in other fields.",
+                "text": "Comment"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]/[at0010]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "value": null
+            }
+          ],
+          "node": {
+            "code": "at0000",
+            "description": "Administrative details about a period of admitted patient care between a formal or statistical admission and a formal or statistical separation, characterised by only one care type of care from a healthcare institution.",
+            "text": "Episódio"
+          },
+          "occurrences": {
+            "lowerOccurrences": 0,
+            "upperOccurrences": 1
+          },
+          "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-ADMIN_ENTRY.episode_institution.v0]",
+          "ruleMandatory": [],
+          "ruleVisibility": [],
+          "xsi_type": "C_ARCHETYPE_ROOT"
+        },
+        {
+          "Functions": [],
+          "InternalFunctions": [],
+          "Refset": [],
+          "TaskEditable": [
+            "All"
+          ],
+          "TaskInReport": [
+            "All"
+          ],
+          "TaskVisible": [
+            "All"
+          ],
+          "archetype_id": "openEHR-EHR-OBSERVATION.story.v1",
+          "data_type": "Title",
+          "itemName": "História da doença atual",
+          "itemPath": "items.0.1",
+          "items": [
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "dataType": "DV_TEXT",
+              "itemName": "Título",
+              "itemPath": "items.0.1.items.0",
+              "node": {
+                "code": "at0010",
+                "text": "Título"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-OBSERVATION.story.v1]/[at0010]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "value": null
+            },
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "dataType": "DV_TEXT",
+              "itemName": "História",
+              "itemPath": "items.0.1.items.1",
+              "node": {
+                "code": "at0004",
+                "description": "Narrative description of the story or clinical history for the subject of care.",
+                "text": "História"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-OBSERVATION.story.v1]/[at0004]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "value": null
+            }
+          ],
+          "node": {
+            "code": "at0000",
+            "description": "The subjective clinical history of the subject of care as recorded directly by the subject, or reported to a clinician by the subject or a carer.",
+            "text": "História da doença atual"
+          },
+          "occurrences": {
+            "lowerOccurrences": 0,
+            "upperOccurrences": 1
+          },
+          "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-OBSERVATION.story.v1]",
+          "ruleMandatory": [],
+          "ruleVisibility": [],
+          "xsi_type": "C_ARCHETYPE_ROOT"
+        },
+        {
+          "Functions": [],
+          "InternalFunctions": [],
+          "Refset": [],
+          "TaskEditable": [
+            "All"
+          ],
+          "TaskInReport": [
+            "All"
+          ],
+          "TaskVisible": [
+            "All"
+          ],
+          "archetype_id": "openEHR-EHR-SECTION.vital_signs.v0",
+          "cardinality": {
+            "interval": {
+              "lowerOccurrences": 1,
+              "upperOccurrences": "*"
+            },
+            "ordered": false,
+            "unique": false
+          },
+          "data_type": "Title",
+          "itemName": "Vital signs",
+          "itemPath": "items.0.2",
+          "items": [
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "archetype_id": "openEHR-EHR-OBSERVATION.body_temperature.v2",
+              "data_type": "Title",
+              "itemName": "Body temperature",
+              "itemPath": "items.0.2.items.0",
+              "items": [
+                {
+                  "Functions": [],
+                  "InternalFunctions": [],
+                  "Refset": [],
+                  "TaskEditable": [
+                    "All"
+                  ],
+                  "TaskInReport": [
+                    "All"
+                  ],
+                  "TaskVisible": [
+                    "All"
+                  ],
+                  "dataType": "DV_QUANTITY",
+                  "itemName": "Temperature",
+                  "itemPath": "items.0.2.items.0.items.0",
+                  "node": {
+                    "code": "at0068",
+                    "description": "The measured temperature.",
+                    "text": "Temperature"
+                  },
+                  "occurrences": {
+                    "lowerOccurrences": 0,
+                    "upperOccurrences": 1
+                  },
+                  "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-SECTION.vital_signs.v0]/[openEHR-EHR-OBSERVATION.body_temperature.v2]/[at0068]",
+                  "ruleMandatory": [],
+                  "ruleVisibility": [],
+                  "units": {
+                    "precision": {
+                      "lowerPrecision": 1,
+                      "upperPrecision": 1
+                    },
+                    "range": {
+                      "lower": 0,
+                      "lowerIncluded": "true",
+                      "upper": 100,
+                      "upperIncluded": "false"
+                    },
+                    "unit": "Cel"
+                  },
+                  "value": {
+                    "unit": null,
+                    "value": null
+                  }
+                }
+              ],
+              "node": {
+                "code": "at0000",
+                "description": "A measurement of the body temperature, which is a surrogate for the core body temperature of the individual.",
+                "text": "Body temperature"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-SECTION.vital_signs.v0]/[openEHR-EHR-OBSERVATION.body_temperature.v2]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "xsi_type": "C_ARCHETYPE_ROOT"
+            },
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "archetype_id": "openEHR-EHR-OBSERVATION.pulse.v2",
+              "data_type": "Title",
+              "itemName": "Pulse/Heart beat",
+              "itemPath": "items.0.2.items.1",
+              "items": [
+                {
+                  "Functions": [],
+                  "InternalFunctions": [],
+                  "Refset": [],
+                  "TaskEditable": [
+                    "All"
+                  ],
+                  "TaskInReport": [
+                    "All"
+                  ],
+                  "TaskVisible": [
+                    "All"
+                  ],
+                  "dataType": "DV_QUANTITY",
+                  "itemName": "Rate",
+                  "itemPath": "items.0.2.items.1.items.0",
+                  "node": {
+                    "code": "at1060",
+                    "description": "The rate of the pulse or heart beat, measured in beats per minute.",
+                    "text": "Rate"
+                  },
+                  "occurrences": {
+                    "lowerOccurrences": 0,
+                    "upperOccurrences": 1
+                  },
+                  "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-SECTION.vital_signs.v0]/[openEHR-EHR-OBSERVATION.pulse.v2]/[at1060]",
+                  "ruleMandatory": [],
+                  "ruleVisibility": [],
+                  "units": {
+                    "precision": {
+                      "lowerPrecision": 0,
+                      "upperPrecision": 0
+                    },
+                    "range": {
+                      "lower": 0,
+                      "lowerIncluded": "true",
+                      "upper": 1000,
+                      "upperIncluded": "false"
+                    },
+                    "unit": "/min"
+                  },
+                  "value": {
+                    "unit": null,
+                    "value": null
+                  }
+                }
+              ],
+              "node": {
+                "code": "at0000",
+                "description": "The rate and associated attributes for a pulse or heart beat.",
+                "text": "Pulse/Heart beat"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-SECTION.vital_signs.v0]/[openEHR-EHR-OBSERVATION.pulse.v2]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "xsi_type": "C_ARCHETYPE_ROOT"
+            },
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "archetype_id": "openEHR-EHR-OBSERVATION.blood_pressure.v2",
+              "data_type": "Title",
+              "itemName": "Blood pressure",
+              "itemPath": "items.0.2.items.2",
+              "items": [
+                {
+                  "Functions": [],
+                  "InternalFunctions": [],
+                  "Refset": [],
+                  "TaskEditable": [
+                    "All"
+                  ],
+                  "TaskInReport": [
+                    "All"
+                  ],
+                  "TaskVisible": [
+                    "All"
+                  ],
+                  "dataType": "DV_QUANTITY",
+                  "itemName": "Diastolic",
+                  "itemPath": "items.0.2.items.2.items.0",
+                  "node": {
+                    "code": "at1060",
+                    "description": "Minimum systemic arterial blood pressure - measured in the diastolic or relaxation phase of the heart cycle.",
+                    "text": "Diastolic"
+                  },
+                  "occurrences": {
+                    "lowerOccurrences": 0,
+                    "upperOccurrences": 1
+                  },
+                  "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-SECTION.vital_signs.v0]/[openEHR-EHR-OBSERVATION.blood_pressure.v2]/[at1060]",
+                  "ruleMandatory": [],
+                  "ruleVisibility": [],
+                  "units": {
+                    "precision": {
+                      "lowerPrecision": 0,
+                      "upperPrecision": 0
+                    },
+                    "range": {
+                      "lower": 0,
+                      "lowerIncluded": "true",
+                      "upper": 1000,
+                      "upperIncluded": "false"
+                    },
+                    "unit": "mm[Hg]"
+                  },
+                  "value": {
+                    "unit": null,
+                    "value": null
+                  }
+                },
+                {
+                  "Functions": [],
+                  "InternalFunctions": [],
+                  "Refset": [],
+                  "TaskEditable": [
+                    "All"
+                  ],
+                  "TaskInReport": [
+                    "All"
+                  ],
+                  "TaskVisible": [
+                    "All"
+                  ],
+                  "dataType": "DV_QUANTITY",
+                  "itemName": "Systolic",
+                  "itemPath": "items.0.2.items.2.items.1",
+                  "node": {
+                    "code": "at1061",
+                    "description": "Peak systemic arterial blood pressure  - measured in systolic or contraction phase of the heart cycle.",
+                    "text": "Systolic"
+                  },
+                  "occurrences": {
+                    "lowerOccurrences": 0,
+                    "upperOccurrences": 1
+                  },
+                  "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-SECTION.vital_signs.v0]/[openEHR-EHR-OBSERVATION.blood_pressure.v2]/[at1061]",
+                  "ruleMandatory": [],
+                  "ruleVisibility": [],
+                  "units": {
+                    "precision": {
+                      "lowerPrecision": 0,
+                      "upperPrecision": 0
+                    },
+                    "range": {
+                      "lower": 0,
+                      "lowerIncluded": "true",
+                      "upper": 1000,
+                      "upperIncluded": "false"
+                    },
+                    "unit": "mm[Hg]"
+                  },
+                  "value": {
+                    "unit": null,
+                    "value": null
+                  }
+                }
+              ],
+              "node": {
+                "code": "at0000",
+                "description": "The local measurement of arterial blood pressure which is a surrogate for arterial pressure in the systemic circulation.",
+                "text": "Blood pressure"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-SECTION.vital_signs.v0]/[openEHR-EHR-OBSERVATION.blood_pressure.v2]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "xsi_type": "C_ARCHETYPE_ROOT"
+            },
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "archetype_id": "openEHR-EHR-OBSERVATION.respiration.v2",
+              "data_type": "Title",
+              "itemName": "Respiration",
+              "itemPath": "items.0.2.items.3",
+              "items": [
+                {
+                  "Functions": [],
+                  "InternalFunctions": [],
+                  "Refset": [],
+                  "TaskEditable": [
+                    "All"
+                  ],
+                  "TaskInReport": [
+                    "All"
+                  ],
+                  "TaskVisible": [
+                    "All"
+                  ],
+                  "dataType": "DV_QUANTITY",
+                  "itemName": "FR",
+                  "itemPath": "items.0.2.items.3.items.0",
+                  "node": {
+                    "code": "at0072",
+                    "description": "The frequency of spontaneous breathing.",
+                    "text": "FR"
+                  },
+                  "occurrences": {
+                    "lowerOccurrences": 0,
+                    "upperOccurrences": 1
+                  },
+                  "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-SECTION.vital_signs.v0]/[openEHR-EHR-OBSERVATION.respiration.v2]/[at0072]",
+                  "ruleMandatory": [],
+                  "ruleVisibility": [],
+                  "units": {
+                    "precision": {
+                      "lowerPrecision": 0,
+                      "upperPrecision": 0
+                    },
+                    "range": {
+                      "lower": 0,
+                      "lowerIncluded": "true",
+                      "upper": 200,
+                      "upperIncluded": "true"
+                    },
+                    "unit": "/min"
+                  },
+                  "value": {
+                    "unit": null,
+                    "value": null
+                  }
+                }
+              ],
+              "node": {
+                "code": "at0000",
+                "description": "The characteristics of spontaneous breathing by an individual.",
+                "text": "Respiration"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-SECTION.vital_signs.v0]/[openEHR-EHR-OBSERVATION.respiration.v2]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "xsi_type": "C_ARCHETYPE_ROOT"
+            },
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "archetype_id": "openEHR-EHR-OBSERVATION.pulse_oximetry.v1",
+              "data_type": "Title",
+              "itemName": "Pulse oximetry",
+              "itemPath": "items.0.2.items.4",
+              "items": [
+                {
+                  "Functions": [],
+                  "InternalFunctions": [],
+                  "Refset": [],
+                  "TaskEditable": [
+                    "All"
+                  ],
+                  "TaskInReport": [
+                    "All"
+                  ],
+                  "TaskVisible": [
+                    "All"
+                  ],
+                  "dataType": "DV_PROPORTION",
+                  "itemName": "SpO₂",
+                  "itemPath": "items.0.2.items.4.items.0",
+                  "node": {
+                    "code": "at0065",
+                    "description": "The saturation of oxygen in the peripheral blood, measured via pulse oximetry.",
+                    "text": "SpO₂"
+                  },
+                  "numerator": {
+                    "range": {
+                      "lower": 0,
+                      "lowerIncluded": "true",
+                      "upper": 100,
+                      "upperIncluded": "true"
+                    }
+                  },
+                  "occurrences": {
+                    "lowerOccurrences": 0,
+                    "upperOccurrences": 1
+                  },
+                  "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-SECTION.vital_signs.v0]/[openEHR-EHR-OBSERVATION.pulse_oximetry.v1]/[at0065]",
+                  "ruleMandatory": [],
+                  "ruleVisibility": [],
+                  "type": "Unitary",
+                  "value": null
+                },
+                {
+                  "Functions": [],
+                  "InternalFunctions": [],
+                  "Refset": [],
+                  "TaskEditable": [
+                    "All"
+                  ],
+                  "TaskInReport": [
+                    "All"
+                  ],
+                  "TaskVisible": [
+                    "All"
+                  ],
+                  "dataType": "DV_PROPORTION",
+                  "itemName": "SpCO",
+                  "itemPath": "items.0.2.items.4.items.1",
+                  "node": {
+                    "code": "at0066",
+                    "description": "The saturation of carboxyhaemoglobin in the peripheral blood, measured via pulse CO-oximetry.",
+                    "text": "SpCO"
+                  },
+                  "numerator": {
+                    "range": {
+                      "lower": 0,
+                      "lowerIncluded": "true",
+                      "upper": 100,
+                      "upperIncluded": "true"
+                    }
+                  },
+                  "occurrences": {
+                    "lowerOccurrences": 0,
+                    "upperOccurrences": 1
+                  },
+                  "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-SECTION.vital_signs.v0]/[openEHR-EHR-OBSERVATION.pulse_oximetry.v1]/[at0066]",
+                  "ruleMandatory": [],
+                  "ruleVisibility": [],
+                  "type": "Unitary",
+                  "value": null
+                }
+              ],
+              "node": {
+                "code": "at0000",
+                "description": "Blood oxygen and related measurements, measured by pulse oximetry or pulse CO-oximetry.",
+                "text": "Pulse oximetry"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-SECTION.vital_signs.v0]/[openEHR-EHR-OBSERVATION.pulse_oximetry.v1]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "xsi_type": "C_ARCHETYPE_ROOT"
+            }
+          ],
+          "node": {
+            "code": "at0000",
+            "description": "Framework for consistent modelling of observations and measurements about essential physiological functions.",
+            "text": "Vital signs"
+          },
+          "occurrences": {
+            "lowerOccurrences": 0,
+            "upperOccurrences": 1
+          },
+          "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-SECTION.vital_signs.v0]",
+          "ruleMandatory": [],
+          "ruleVisibility": [],
+          "xsi_type": "C_ARCHETYPE_ROOT"
+        },
+        {
+          "Functions": [],
+          "InternalFunctions": [],
+          "Refset": [],
+          "TaskEditable": [
+            "All"
+          ],
+          "TaskInReport": [
+            "All"
+          ],
+          "TaskVisible": [
+            "All"
+          ],
+          "archetype_id": "openEHR-EHR-OBSERVATION.body_weight.v2",
+          "data_type": "Title",
+          "itemName": "Body weight",
+          "itemPath": "items.0.3",
+          "items": [
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "dataType": "DV_QUANTITY",
+              "itemName": "Peso",
+              "itemPath": "items.0.3.items.0",
+              "node": {
+                "code": "at0029",
+                "description": "The weight of the individual.",
+                "text": "Peso"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-OBSERVATION.body_weight.v2]/[at0029]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "units": [
+                {
+                  "range": {
+                    "lower": 0,
+                    "lowerIncluded": "true",
+                    "upper": 1000,
+                    "upperIncluded": "true"
+                  },
+                  "unit": "kg"
+                },
+                {
+                  "range": {
+                    "lower": 0,
+                    "lowerIncluded": "true",
+                    "upper": 1000000,
+                    "upperIncluded": "true"
+                  },
+                  "unit": "g"
+                }
+              ],
+              "value": {
+                "unit": null,
+                "value": null
+              }
+            }
+          ],
+          "node": {
+            "code": "at0000",
+            "description": "Measurement of the body weight of an individual.",
+            "text": "Body weight"
+          },
+          "occurrences": {
+            "lowerOccurrences": 0,
+            "upperOccurrences": 1
+          },
+          "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-OBSERVATION.body_weight.v2]",
+          "ruleMandatory": [],
+          "ruleVisibility": [],
+          "xsi_type": "C_ARCHETYPE_ROOT"
+        },
+        {
+          "Functions": [],
+          "InternalFunctions": [],
+          "Refset": [],
+          "TaskEditable": [
+            "All"
+          ],
+          "TaskInReport": [
+            "All"
+          ],
+          "TaskVisible": [
+            "All"
+          ],
+          "archetype_id": "openEHR-EHR-OBSERVATION.height.v2",
+          "data_type": "Title",
+          "itemName": "Height/Length",
+          "itemPath": "items.0.4",
+          "items": [
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "dataType": "DV_QUANTITY",
+              "itemName": "Altura",
+              "itemPath": "items.0.4.items.0",
+              "node": {
+                "code": "at0023",
+                "description": "The length of the body from crown of head to sole of foot.",
+                "text": "Altura"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-OBSERVATION.height.v2]/[at0023]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "units": {
+                "range": {
+                  "lower": 0,
+                  "lowerIncluded": "true",
+                  "upper": 1000,
+                  "upperIncluded": "true"
+                },
+                "unit": "cm"
+              },
+              "value": {
+                "unit": null,
+                "value": null
+              }
+            }
+          ],
+          "node": {
+            "code": "at0000",
+            "description": "Height, or body length, is measured from crown of head to sole of foot.",
+            "text": "Height/Length"
+          },
+          "occurrences": {
+            "lowerOccurrences": 0,
+            "upperOccurrences": 1
+          },
+          "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-OBSERVATION.height.v2]",
+          "ruleMandatory": [],
+          "ruleVisibility": [],
+          "xsi_type": "C_ARCHETYPE_ROOT"
+        },
+        {
+          "Functions": [],
+          "InternalFunctions": [],
+          "Refset": [],
+          "TaskEditable": [
+            "All"
+          ],
+          "TaskInReport": [
+            "All"
+          ],
+          "TaskVisible": [
+            "All"
+          ],
+          "archetype_id": "openEHR-EHR-OBSERVATION.body_mass_index.v2",
+          "data_type": "Title",
+          "itemName": "Body mass index",
+          "itemPath": "items.0.5",
+          "items": [
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "dataType": "DV_QUANTITY",
+              "itemName": "IMC",
+              "itemPath": "items.0.5.items.0",
+              "node": {
+                "code": "at0016",
+                "description": "Index describing ratio of weight to height.",
+                "text": "IMC"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-OBSERVATION.body_mass_index.v2]/[at0016]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "units": {
+                "precision": {
+                  "lowerPrecision": 1,
+                  "upperPrecision": 1
+                },
+                "range": {
+                  "lower": 0,
+                  "lowerIncluded": "true",
+                  "upper": 1000,
+                  "upperIncluded": "false"
+                },
+                "unit": "kg/m2"
+              },
+              "value": {
+                "unit": null,
+                "value": null
+              }
+            }
+          ],
+          "node": {
+            "code": "at0000",
+            "description": "Calculated measurement which compares a persons weight and height.",
+            "text": "Body mass index"
+          },
+          "occurrences": {
+            "lowerOccurrences": 0,
+            "upperOccurrences": 1
+          },
+          "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-OBSERVATION.body_mass_index.v2]",
+          "ruleMandatory": [],
+          "ruleVisibility": [],
+          "xsi_type": "C_ARCHETYPE_ROOT"
+        },
+        {
+          "Functions": [],
+          "InternalFunctions": [],
+          "Refset": [],
+          "TaskEditable": [
+            "All"
+          ],
+          "TaskInReport": [
+            "All"
+          ],
+          "TaskVisible": [
+            "All"
+          ],
+          "archetype_id": "openEHR-EHR-OBSERVATION.head_circumference.v1",
+          "data_type": "Title",
+          "itemName": "Head circumference",
+          "itemPath": "items.0.6",
+          "items": [
+            {
+              "Functions": [],
+              "InternalFunctions": [],
+              "Refset": [],
+              "TaskEditable": [
+                "All"
+              ],
+              "TaskInReport": [
+                "All"
+              ],
+              "TaskVisible": [
+                "All"
+              ],
+              "dataType": "DV_QUANTITY",
+              "itemName": "PC",
+              "itemPath": "items.0.6.items.0",
+              "node": {
+                "code": "at0013",
+                "description": "The measurement of the longest distance around the head.",
+                "text": "PC"
+              },
+              "occurrences": {
+                "lowerOccurrences": 0,
+                "upperOccurrences": 1
+              },
+              "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-OBSERVATION.head_circumference.v1]/[at0013]",
+              "ruleMandatory": [],
+              "ruleVisibility": [],
+              "units": {
+                "range": {
+                  "lower": 0,
+                  "lowerIncluded": "true",
+                  "upper": 100,
+                  "upperIncluded": "true"
+                },
+                "unit": "cm"
+              },
+              "value": {
+                "unit": null,
+                "value": null
+              }
+            }
+          ],
+          "node": {
+            "code": "at0000",
+            "description": "The measurement of the longest distance around the head.",
+            "text": "Head circumference"
+          },
+          "occurrences": {
+            "lowerOccurrences": 0,
+            "upperOccurrences": 1
+          },
+          "path": "[openEHR-EHR-COMPOSITION.encounter.v1]/[openEHR-EHR-OBSERVATION.head_circumference.v1]",
+          "ruleMandatory": [],
+          "ruleVisibility": [],
+          "xsi_type": "C_ARCHETYPE_ROOT"
+        }
+      ]
+    ],
+    "node": {
+      "code": "at0000",
+      "description": "Interaction, contact or care event between a subject of care and healthcare provider(s).",
+      "text": "Admissão"
+    },
+    "occurrences": {
+      "lowerOccurrences": 1,
+      "upperOccurrences": 1
+    },
+    "path": "[openEHR-EHR-COMPOSITION.encounter.v1]",
+    "rm_type_name": "COMPOSITION",
+    "ruleMandatory": [],
+    "ruleVisibility": [],
+    "templateId": "b8d4f1c6-f21f-46b5-b750-3907ce2e5187",
+    "templateName": "Admissão",
+    "terminology": "",
+    "themeColor": "default"
+  }

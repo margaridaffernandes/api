@@ -1,0 +1,71 @@
+{
+  "items.0.0.items.O.value": {
+    "code": "at0014",
+    "id": 22001350,
+    "type": "local"
+  },
+  "items.0.0.items.1.date": "2022-01-11",
+  "items.0.0.items.1.time": "21:29:00",
+  "items.0.0.items.2.value": {
+    "code": "local_terms::R50.9",
+    "text": "Febre"
+  },
+  "items.0.0.items.3.value": {
+    "code": "local_terms::Outro",
+    "text": "Outro"
+  },
+  "items.0.0.items.4.value": {
+    "code": "local_terms::Outro",
+    "text": "Outro"
+  },
+  "items.0.0.items.5.value": {
+    "code": "local_terms::U",
+    "text": "Urgente"
+  },
+  "items.0.0.items.6.value": {
+    "code": "local_terms::Não",
+    "text": "Não"
+  },
+  "items.0.0.items.7.items.0.value": {
+    "code": "NADMSCI2",
+    "text": "APR"
+  },
+  "items.0.0.items.7.items.1.value": null,
+  "items.0.0.items.8.items.0.value": null,
+  "items.0.0.items.8.items.1.value": {
+    "code": "local_terms::Sim, outras",
+    "text": "Sim, outras"
+  },
+  "items.0.0.items.8.items.2.value": {
+    "code": "at0003",
+    "text": "vazio"
+  },
+  "items.0.0.items.9.value": null,
+  "items.0.1.items.0.value": null,
+  "items.0.1.items.1.value": [
+    {
+      "code": "at0004",
+      "text": "Criança de 11 anos com antecedentes de obesidade e SAOS sob CPAP + infeção por SARS-COV2 diagnosticada a 20/12/2022. Trazido ao SU por quadro de febre com 36h de evolução (apirexia de 6h; temp máx 39.8ºC) associado a noção de maior dificuldade respiratória enquanto comia o pequeno almoço. Na admissão sem dificuldade respiratória. Refere dor torácica paraesternal associada à inspiração profunda. Noção materna de maior sonolência. Sem tosse ou rinorreia. TGI e diurese mantidos com as características habituais. Apetite mantido. Sem vómitos. Sem repercussão na ingestão alimentar. \r\r\nDurante a permanência no APR refere queixas de odinofagia e dor à mobilização cervical direita.\r\r\nAo exame objetivo de salientar aftas na orofaringe (as maiores nos pilares amigdalinos e várias aftas dispersas na língua). À palpação cervical com tumefação direita dolorosa com 4cm de maior diâmetro. Consistência dura? Sem sinais inflamatórios cutâneos.\r\r\nO estudo analítico revelou leucocitose de 15530 com neutrofilia de 12330; PCR de 146.97; VS de 32; DHL N; sem elevação dos MNM ou do pro-BNP; coagulação e D-dímeros normais.\r\r\nA ecografia cervical mostrou múltiplas formações ganglionares linfáticas laterocervicais/infra-auriculares à direita, com dimensão variada, a mais volumosa medindo 26 x17 mm, de ecoestrutura heterogénea/má definição do hilo central, eventualmente de natureza reactiva.\r\r\nAssim, por quadro de febre + prostração + odinofagia/aftas orofaringe+ adenite cervical em criança com infeção por SARS-COV2 em 12/2022, opta-se por internar para vigilância e antibioterapia endovenosa (Ceftriazone EV + Clindamicina EV). Foi colhida urina para ESU + UC."
+    }
+  ],
+  "items.0.2.items.0.items.0.value.unit": "Cel",
+  "items.0.2.items.0.items.0.value.value": "36.3",
+  "items.0.2.items.1.items.0.value.unit": "/min",
+  "items.0.2.items.1.items.0.value.value": "113",
+  "items.0.2.items.2.items.0.value.unit": "mm[Hg]",
+  "items.0.2.items.2.items.0.value.value": 119,
+  "items.0.2.items.2.items.1.value.unit": "mm[Hg]",
+  "items.0.2.items.2.items.1.value.value": "73",
+  "items.0.2.items.3.items.0.value.unit": "/min",
+  "items.0.2.items.3.items.0.value.value": "",
+  "items.0.2.items.4.items.0.value": "99",
+  "items.0.2.items.4.items.1.value": "21",
+  "items.0.3.items.0.value.unit": "kg",
+  "items.0.3.items.0.value.value": "68",
+  "items.0.4.items.0.value.unit": "cm",
+  "items.0.4.items.0.value.value": "",
+  "items.0.5.items.0.value.unit": "kg/m2",
+  "items.0.5.items.0.value.value": "",
+  "items.0.6.items.0.value.unit": "cm",
+  "items.0.6.items.0.value.value": ""
+}

@@ -1,0 +1,45 @@
+/* Spinner */
+
+.dataLoaderSelectSearch {
+  border: 6px solid #edf2f7;
+  border-radius: 50%;
+  width: 1.75rem;
+  height: 1.75rem;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Placeholder color -> text-gray-500 in tailwindcss */
+
+input::placeholder {
+  color: #a0aec0;
+  opacity: 1;
+}
+
+/* Remore webkits to be compatible among browsers */
+
+input::-ms-clear {
+  display: none;
+}
+
+/* Remover os spin */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

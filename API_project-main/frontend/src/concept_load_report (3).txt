@@ -1,0 +1,7 @@
+﻿{
+    "messages": [
+        "Template depends on archetype openEHR-EHR-ADMIN_ENTRY.episode_institution.v0 which may have changed since this template was last saved. Template expects integrity hash: fceed2dbca053691d129258c95db7dda, but actual: e0981c0a7874c6104d738af919e423f5",
+        "Template depends on archetype openEHR-EHR-OBSERVATION.story.v1 which may have changed since this template was last saved. Template expects integrity hash: 3A1B4D8A5FDB61199F2DA05400462F93, but actual: 759ab92a4359419b2570fa930e6ef29c",
+        "No such concept: archetypeId=openEHR-EHR-SECTION.vital_signs.v0"
+    ]
+}

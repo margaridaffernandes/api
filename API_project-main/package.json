@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@mui/material": "^5.13.3",
+    "exceljs": "^4.3.0",
+    "express-session": "^1.17.3",
+    "recharts": "^2.6.2",
+    "xlsx": "^0.18.5"
+  }
+}

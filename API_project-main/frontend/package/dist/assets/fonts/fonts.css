@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(RobotoLight.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(Inter-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url(Heebo-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Hind';
+    src: url(HindLight.ttf);
+}
+
+body{
+    font-family: 'Roboto' !important;
+}

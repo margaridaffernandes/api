@@ -1,0 +1,94 @@
+import { EditorState, convertFromRaw } from "draft-js";
+
+const buildText = (item, widths, isAny, showLabel) => {
+  let label;
+
+  if (!isAny || isAny && showLabel === 1) {
+    label = [{
+      text: " ",
+      border: [false, false, false, false]
+    }, {
+      text: item.node === null ? item.text : item.node.text,
+      border: [false, false, false, false],
+      style: "label"
+    }];
+  } else {
+    label = [{
+      text: " ",
+      border: [false, false, false, false]
+    }, {
+      text: " ",
+      border: [false, false, false, false],
+      style: "label"
+    }];
+  }
+
+  let field;
+
+  if (Array.isArray(item.value)) {
+    let texts = item.value.map(obj => {
+      return [{
+        text: " ",
+        border: [false, false, false, false]
+      }, {
+        text: item.value === null ? " " : obj.value.indexOf("entityMap") > -1 ? EditorState.createWithContent(convertFromRaw(JSON.parse(obj.value))).getCurrentContent().getPlainText("\u0001") : obj.value,
+        border: [true, true, true, true],
+        style: "field"
+      }];
+    });
+    field = {
+      table: {
+        dontBreakRows: true,
+        widths: widths,
+        body: [label, ...texts]
+      },
+      layout: {
+        hLineWidth: function (i, node) {
+          return 0.5;
+        },
+        vLineWidth: function (i, node) {
+          return 0.5;
+        },
+        hLineColor: function (i, node) {
+          return "black";
+        },
+        vLineColor: function (i, node) {
+          return "black";
+        }
+      }
+    };
+  } else {
+    field = {
+      table: {
+        dontBreakRows: true,
+        widths: widths,
+        body: [label, [{
+          text: " ",
+          border: [false, false, false, false]
+        }, {
+          text: item.value === null ? " " : item.value.indexOf("entityMap") > -1 ? EditorState.createWithContent(convertFromRaw(JSON.parse(item.value))).getCurrentContent().getPlainText("\u0001") : item.value,
+          border: [true, true, true, true],
+          style: "field"
+        }]]
+      },
+      layout: {
+        hLineWidth: function (i, node) {
+          return 0.5;
+        },
+        vLineWidth: function (i, node) {
+          return 0.5;
+        },
+        hLineColor: function (i, node) {
+          return "black";
+        },
+        vLineColor: function (i, node) {
+          return "black";
+        }
+      }
+    };
+  }
+
+  return field;
+};
+
+export { buildText };
